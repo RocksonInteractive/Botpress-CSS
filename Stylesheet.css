@@ -168,7 +168,7 @@
     /* sets the font size of the element */
     font-size: 14px;
     /* sets the color of the element */
-    color: var(--zinc-600);
+    color: rgb(4, 1, 17);
 }
  
 .bpw-header-subtitle {
@@ -183,7 +183,7 @@
     /* sets the font size of the element */
     font-size: 12px;
     /* sets the color of the element */
-    color: var(--zinc-400);
+    color: rgb(4, 1, 17);
 }
  
 .bpw-header-unread {
@@ -216,7 +216,7 @@
     /* sets the background color of the element */
     background: var(--white);
     /* sets the border of the element */
-    border: 1px solid var(--zinc-200);
+    border: 1px solid rgb(4, 1, 17);
     /* sets the border radius of the element (repeated declaration) */
     border-radius: var(--spacing-medium);
     /* sets the padding of the element */
@@ -462,7 +462,7 @@ line-height: 2.5;
 border-bottom: solid 1px rgba(0, 0, 0, 0.1);
 }
  
-/_ This section defines the styling for the start button _/
+/* This section defines the styling for the start button _/
 .bpw-botinfo-start-button {
 /_ Sets the font of the element to inherit from the parent element _/
 font: inherit;
@@ -499,8 +499,8 @@ color: black;
 <script>
     window.botpressWebChat.init({
         // Replace <your-bot-id> and <your-client-id> with your actual bot and client IDs
-        "botId": "<your-bot-id>",
-        "clientId": "<your-client-id>",
+        "botId": "c204e129-09f7-4e03-9eaf-afa7baa7439c",
+        "clientId": "c204e129-09f7-4e03-9eaf-afa7baa7439c",
  
         // Set the URL for the Botpress WebChat JavaScript file and the messaging server
         "hostUrl": "https://cdn.botpress.cloud/webchat/v0",
