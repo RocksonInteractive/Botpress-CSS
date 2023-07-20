@@ -2,7 +2,7 @@
     /* Aligns the button to the right side of the container */
     float: right;
     /* Sets the fill color of the button icon */
-    fill: rgb(255, 255, 255);
+    fill: rgb(4, 1, 17);
     /* Changes the cursor to a pointer when hovering over the button */
     cursor: pointer;
     /* Removes the outline around the button when clicked */
@@ -23,7 +23,7 @@
     /* Rounds the corners of the button */
     border-radius: 50%;
     /* Adds a shadow effect to the button */
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.8);
     /* Clips any content that overflows the button */
     overflow: hidden;
  
@@ -33,7 +33,7 @@
     background-clip: padding-box;
  
     /* Adds a transition effect to the button when its size changes */
-    transition: width 1s, height 1s;
+    transition: width 0.5s, height 0.5s;
 }
 
 .bpw-floating-button {
@@ -42,9 +42,9 @@
 
 .bpw-floating-button i {
     /* Adds a transition effect to the icon when its opacity changes */
-    transition: opacity 0.3s ease;
+    transition: opacity 0.8s ease;
     /* Sets the opacity of the icon to fully visible */
-    opacity: 1;
+    opacity: 0.8;
     /* Inherit the fill and stroke color from the parent button element */
     fill: inherit;
     stroke: inherit;
@@ -63,10 +63,10 @@
     right: 2px;
     bottom: 54px;
     /* Sets the width and height of the badge */
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     /* Rounds the corners of the badge to make it circular */
-    border-radius: 50%;
+    border-radius: 60%;
     /* Centers the text inside the badge */
     line-height: 20px;
  
@@ -114,7 +114,7 @@
 .bpw-header-icon svg,
 .bpw-header-icon svg path {
   /* Set fill color to a variable named shark */
-  fill: var(--shark);
+  fill: rgb(4, 1, 17);
   /* Set fill transition duration to 0.3 seconds */
   transition: fill 0.3s;
 }
