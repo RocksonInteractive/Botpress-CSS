@@ -487,6 +487,15 @@ border: 1px solid black;
 color: black;
 }
 
+ .bpw-layout {
+    width: 350px !important;
+    border: 1px;
+    height: 60vh;
+    border-radius: 20px;
+    right: 10%;
+    bottom: 5%;
+  }
+    
 // Import the Botpress WebChat JavaScript file
 <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
  
