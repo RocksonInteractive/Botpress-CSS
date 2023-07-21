@@ -211,16 +211,11 @@
 }
 
 .bpw-header-container {
-    /* sets the border radius of the element */
-    border-radius: var(--spacing-large);
-    /* sets the background color of the element */
-    background: var(--white);
-    /* sets the border of the element */
-    border: 1px solid rgb(4, 1, 17);
-    /* sets the border radius of the element (repeated declaration) */
-    border-radius: var(--spacing-medium);
-    /* sets the padding of the element */
-    padding: var(--spacing-large) var(--spacing-x-large);
+    margin: 10px 10px 0px 10px;
+    background: #4e4e4e;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
 }
 
 /* Style for the composer section */
