@@ -1,3 +1,13 @@
+.bpw-layout {
+    position: absolute; /* add this line */
+    width: 350px !important;
+    border: 1px solid black; /* change this line */
+    height: 60vh;
+    border-radius: 20px;
+    right: 10%;
+    bottom: 5%;
+}
+
 .bpw-floating-button {
     /* Aligns the button to the right side of the container */
     float: right;
